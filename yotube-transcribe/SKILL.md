@@ -10,6 +10,9 @@ Skill for extracting transcript text from YouTube subtitles via `scripts/subs`.
 ## When to use
 
 - The user asks for a YouTube transcript.
+- The user asks to watch a video and summarize what is said in it.
+- The user asks to describe a video based on its spoken content.
+- The user provides links to YouTube domains (`youtube.com`, `youtu.be`, etc.) and needs transcript-based analysis.
 - The user asks for subtitles in a specific language (`ru`, `en`, etc.).
 - You need original auto subtitles when the language is unknown or not important.
 - You need markdown output with frontmatter (`title`, `description`, `url`) and transcript text.
