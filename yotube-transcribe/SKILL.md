@@ -1,6 +1,6 @@
 ---
 name: yotube-transcribe
-description: Downloads YouTube subtitles with scripts/subs and returns clean markdown text with metadata.
+description: Use when a request includes YouTube spoken-content tasks: transcript, subtitles, captions, what-is-said summary, quote extraction (with timestamps), subtitle translation/localization, or speech-based video comparison. Produces clean markdown from scripts/subs with frontmatter (title, description, url).
 ---
 
 # yotube-transcribe
@@ -16,6 +16,9 @@ Skill for extracting transcript text from YouTube subtitles via `scripts/subs`.
 - The user asks for subtitles in a specific language (`ru`, `en`, etc.).
 - You need original auto subtitles when the language is unknown or not important.
 - You need markdown output with frontmatter (`title`, `description`, `url`) and transcript text.
+- The user asks to extract exact quotes/timestamps from spoken content.
+- The user wants to translate, adapt, or localize subtitles based on original speech.
+- The user needs to compare what is said across multiple YouTube videos.
 
 ## Instructions
 
