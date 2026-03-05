@@ -70,12 +70,10 @@ The script prints markdown:
 
 ```markdown
 ---
-
 title: <video title>
 description: |
   <video description multiline>
 url: <canonical video url>
-
 ---
 
 <clean subtitles text>
