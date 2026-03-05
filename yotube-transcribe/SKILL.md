@@ -1,6 +1,10 @@
 ---
 name: yotube-transcribe
-description: Use when a request includes YouTube spoken-content tasks: transcript, subtitles, captions, what-is-said summary, quote extraction (with timestamps), subtitle translation/localization, or speech-based video comparison. Produces clean markdown from scripts/subs with frontmatter (title, description, url).
+description: Use for YouTube spoken-content tasks (transcripts, subtitles/captions, spoken summaries, quotes with timestamps, translation/localization, video speech comparison). Outputs clean markdown via scripts/subs with frontmatter (title, description, url).
+metadata:
+  tags: youtube, transcript, subtitles, captions, localization
+license: MIT
+allowed-tools: Bash
 ---
 
 # yotube-transcribe
